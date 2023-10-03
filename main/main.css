@@ -206,24 +206,23 @@ a {
   color: #66D2CF;
 }
 
-/* about */
-
 .about .container {
-  width: 1111px;
-  height: 524px;
-  top: 849px;
-  left: 165px;
-  background-image: url(../img/Group\ 13\ \(1\).png);
+  background-image: url("../img/Group\ 13\ \(1\).png");
   background-repeat: no-repeat;
-  background-size: contain;
+  width: 1111px;
+  height: 196px;
+  padding-top: 136px;
 }
 
 .about__list {
-  margin-top: 250px;
-  margin-left: -50px;
-  transform: translateX(130px);
   display: flex;
-  padding-top: 60px;
+  justify-content: space-between;
+  margin-left: -30px;
+}
+
+.about__item {
+  text-align: center;
+  margin-left: 30px;
 }
 
 .about__img {
@@ -231,46 +230,39 @@ a {
 }
 
 .about__title {
-  font-family: "Fraunces";
+  width: 225px;
+  color: #333D4B;
+  text-align: center;
+  font-family: "Fraunces 9pt";
   font-size: 24px;
+  font-style: normal;
   font-weight: 900;
   line-height: 32px;
-  text-align: center;
-  color: #333D4B;
-  padding-bottom: 24PX;
-  padding-top: 70PX;
-}
-
-.about__item {
-  width: 225px;
-  text-align: center;
-  justify-content: space-between;
-}
-
-.about__item+.about__item {
-  margin-left: 30px;
-  margin: 0px;
-  padding: 0px;
 }
 
 .about__text {
+  width: 225px;
   color: #333D4B;
-  font-family: "Barlow";
+  text-align: center;
+  font-family: Barlow;
   font-size: 16px;
+  font-style: normal;
   font-weight: 400;
   line-height: 26px;
-  text-align: center;
-  margin-bottom: 18PX;
 }
+
+
+
 
 .humos .container {
   width: 1280px;
-  height: 577px;
+  height: 600px;
   background-color: #2C343E;
-  margin-left: 2100px; 
-  margin-top: 340px;
-  border-radius: 12px;
-  
+  margin-left: 2100px;
+  margin-top: 400px;
+  border-radius: 10px;
+  position: relative;
+
 }
 
 /* .humons .container {
@@ -278,20 +270,20 @@ a {
   height: 577px;
   background-color: #2C343E;
   left: 1920px;
-  top: 165px;
+  top: 165px; */
 
 
-} */
+
 
 .humos__item {
   width: 540px;
   height: 160px;
   margin-left: 360px;
   padding-top: 70px;
-  
+
 }
 
- .humos__title { 
+.humos__title {
   color: #FEFCF7;
   text-align: center;
   font-family: "Fraunces";
@@ -299,6 +291,7 @@ a {
   font-style: normal;
   font-weight: 900;
   line-height: 48px;
+  padding-top: 100px;
 }
 
 .humons__text {
@@ -309,6 +302,7 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+
 }
 
 .humons__text__p,
@@ -326,6 +320,7 @@ a {
   margin: 20px;
   border-radius: 8px;
 }
+
 
 .humons__img {
   margin: 30px;
@@ -366,4 +361,227 @@ a {
   grid-template-columns: repeat(3, 1fr);
   margin-top: 180px;
   margin-left: 15px;
+  position: absolute;
+  margin-top: 86px;
+}
+
+.our .container {
+  width: 1045px;
+  margin-top: 350px;
+}
+
+.our__title {
+  color: #83888F;
+  font-family: "Fraunces";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  margin: 0 auto;
+  padding: 0 auto;
+  margin-bottom: 80 px;
+
+}
+
+.our__line {
+  display: flex;
+  align-items: center;
+  width: 760px;
+  height: 2px;
+  background-color: #FDD6BA;
+  margin-bottom: 82px;
+  position: relative;
+  margin-left: 30px;
+  margin-top: 80px;
+}
+
+.our__span {
+  width: 31px;
+  height: 31px;
+  border: 2px solid #0E8784;
+  border-radius: 50%;
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  margin-left: -27px;
+}
+
+.our__span:nth-child(2) {
+  margin-left: 349px;
+}
+
+.our__span:nth-child(3) {
+  margin-left: 755px;
+}
+
+.our__number {
+  color: #FDD6BA;
+  font-family: "Fraunces";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px;
+  margin: 0;
+  padding: 0;
+}
+
+.our__title--1 {
+  /* width: 255px; */
+  color: #333D4B;
+  font-family: "Fraunces";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px;
+}
+
+.our__text {
+  color: #333D4B;
+  font-family: "Barlow";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.our__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+
+}
+
+.our__item {
+  color: #FEFCF7;
+  border-radius: 6px;
+  font-family: "Fraunces";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 64px;
+}
+
+.button {
+  font-family: "Barlow";
+  font-size: 16px;
+  color: #FEFCF7;
+  text-align: center;
+  width: 217px;
+  height: 56px;
+  background-color: #66D2CF;
+  border: 2px solid;
+  border-radius: 9px;
+  margin-top: 9px;
+  cursor: pointer;
+  background: #66D2CF;
+
+}
+
+.button:hover {
+  background-color: #fff;
+}
+
+.button__p {
+  font-family: "Fraunces";
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 22px;
+  text-align: center;
+  color: #FEFCF7;
+}
+
+.button__p:hover {
+  color: #66D2CF;
+}
+
+.footer .container {
+  width: 1280px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2C343E;
+  margin-top: 200px;
+}
+
+.footer__picture {
+  padding: 47px 0px;
+  padding-left: 85px;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__link--1 {
+  color: #FEFCF7;
+  font-family: Barlow;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
+
+.footer__link--12 {
+  color: #83888F;
+  font-family: Barlow;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.923px;
+  /* text-transform: uppercase; */
+}
+
+
+.footer__item {
+  padding: 20px;
+}
+
+.footer__link--12:hover {
+  text-decoration: overline;
+  color: #FEFCF7;
+  font-family: "fraunce";
+  font-weight: 900;
+  cursor: pointer;
+}
+.footer__link--1:hover {
+  text-decoration: overline;
+  color: #83888F;
+  font-family: "fraunce";
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.nav__list {
+  display: flex;
+  
+}
+
+.nav__item {
+  padding-left: 33px;
+  justify-content: space-between;
+
+}
+.navber {
+  margin-left: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column; 
+}
+
+
+.path:hover {
+  fill:#FDD6BA
+ 
 }
